@@ -31,8 +31,7 @@ module.exports = {
     ]
   },
   eslint: {
-    formatter: require('eslint/lib/formatters/stylish'),
-    configFile: './eslintrc'
+    formatter: require('eslint/lib/formatters/stylish')
   },
   plugins: plugins
 };
